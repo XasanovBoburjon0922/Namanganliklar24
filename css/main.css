@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Medium.woff2') format('woff2'),
+        url('../fonts/Mulish-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Light.woff2') format('woff2'),
+        url('../fonts/Mulish-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../fonts/Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
+        url('../fonts/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.site-header{
+    padding: 30px 120px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0  auto;
+    padding: 0 20px;
+}
+
+.header{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    background: #F6F6F6;
+    height: 105px;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.header-search{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    background: #FFF;
+    width: 275px;
+    height: 45px;
+}
+.header-uzru{
+    cursor: pointer;
+    width: 58px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 39px;
+    background: #DCE6FF;
+}
+.header-uz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+}
+.header-buttom{
+    display: flex;
+    width: 89px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 10px;
+    border-radius: 10px;
+    background: #7296EC;
+}
+.header-buttom:hover{
+    display: flex;
+    width: 89px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: white;
+    color: #7296EC;
+    border: 3px solid #7296EC;
+}
+.buttom{
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-logo-color{
+    width: 499px;
+    height: 33px;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-link{
+    background: #FFF;
+    width: 279px;
+}
+.header-logo1{
+    color: #2959CE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-logo2{
+    color: #2959CE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.search-header{
+    width: 458px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr1{
+    width: 1200px;
+    height: 0px;
+    stroke: #D2D2D2;
+    margin-bottom: 40px;
+}
+.header-text{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #7F7F7F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-reklama{
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.mire-title{
+    margin-bottom: 20px;
+}
+.mire-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.mire-img-text{
+    display: flex;
+    width: 764px;
+    height: 214px;
+    border-radius: 15px;
+    background: #F6F6F6;
+    margin-bottom: 10px;
+}
+.rasm{
+    padding: 20px;
+    width: 231px;
+    height: 226px;
+}
+.mire-glavno{
+    width: 418px;
+    height: 556px;
+    border-radius: 15px;
+    background: #F6F6F6;
+    margin-left: 7px;
+    padding: 20px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.mire-text-title{
+    margin-bottom: 25px;
+}
+.mire-text-title1{
+    margin-bottom: 8px;
+
+}
+.hr-mire{
+    stroke-width: 1px;
+    stroke: #D2D2D2;
+    width: 375px;
+    height: 0px;
+    margin-bottom: 20px;
+}
+.mire-title-text{
+    padding: 20px 20px 4px 20px;
+    width: 549px;
+}
+.mire-text{
+    padding: 10px 20px 20px 20px;
+    width: 509px;
+}
+.logo-malumot2{
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+}
+.eshyo{
+    display: inline-flex;
+    padding: 14px 326px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EAEAEA;
+}
+.pokazat-eshyo{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mire-text-item{
+    margin-bottom: 20px;
+}
+.chegirma-title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+footer{
+    background-color: #7296EC;
+}
+.footer{
+    width: 1440px;
+    height: 425px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 109px 0px;
+}
+.footer-logo{
+    margin-bottom: 15px;
+}
+.footer-text{
+    width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.footer-text-item{
+    width: 229px;
+    height: 177px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 158.333% */
+}
+.footer-item-text1{
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hr2{
+    width: 1440px;
+    margin-bottom: 20px;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+}
+.text-footer{
+    width: 152px;
+    height: 46px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 127.778% */
+}
+.footer-a{
+    margin-top: 12px;
+    margin-right: 25px;
+}
+.facebook, .instagramm, .telegramm{
+    margin-right: 25px;
+}

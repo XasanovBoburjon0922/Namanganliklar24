@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Medium.woff2') format('woff2'),
+        url('../fonts/Mulish-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Light.woff2') format('woff2'),
+        url('../fonts/Mulish-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../fonts/Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
+        url('../fonts/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.header-bg{
+    width: 1518px;
+    height: 1030px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../images/end.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1200px;
+    margin: 0  auto;
+    padding: 0 20px;
+}
+.line{
+    padding: 390px 400px;
+}
+.header-site{
+    width: 720px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    width: 600px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 130.769% */
+}
+.nobutton{
+    mask-border: 50px;
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 10px;    
+    border-radius: 10px;
+    background: #F78B3B;
+    color: #FFF;
+}
+.nobutton:hover{
+    mask-border: 50px;
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 10px;    
+    border: 3px solid #F78B3B;
+    border-radius: 10px;
+    background: #FFF;
+    color: #F78B3B;
+}
